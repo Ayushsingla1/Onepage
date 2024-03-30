@@ -3,36 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style_index.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header>
-            <div class="Nav">
-                <div class="Nav2">
-                    Portfolio
-                </div>
-                <ul class="Nav3">
-                    <li class="navitems"><a href="#">Home</a></li>
-                    <li class="navitems"><a href="./Contact.html">Contact</a></li>
-                    <li class="navitems"><a href="./About.html">About</a></li>
-                </ul>
+    <header>
+        <div class="Nav">
+            <div class="Nav2">
+                Portfolio
             </div>
-        </header>
-        <section class="container__">
-            <div class="container_left">
-                <h3>Hello</h3>
-                <h1>I'm Ayush</h1>
-                <div class="content_me">Hey there! I'm a student at Netaji Subhash University, studying computer stuff. I really love diving into how computers work and figuring out how to use them to solve problems.In the future, I want to use what I've learned to make cool stuff that helps people. Whether it's creating new apps, doing research on how to make computers smarter, or even starting my own tech company, I'm excited to see where my journey in computer science takes me!</div>
-                <div class="profile_tags"><a class="leftlink" href="https://github.com/Ayushsingla1" target="_blank">GitHub</a>
-                    <a class="rightlink" href="https://www.linkedin.com/in/ayush-singla-a7549628b" target="_blank">Linkedin</a></div>    
-                </div>
+            <ul class="Nav3">
+                <li class="navitems"><a href="#home_page">Home</a></li>
+                <li class="navitems"><a href="#contact_ruko">Contact</a></li>
+                <li class="navitems"><a href="#about_ruko">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="home_page">
+        <div class="container_left">
+            <h3>Hello</h3>
+            <h1>I'm Ayush</h1>
+            <div class="content_me">Hey there! I'm a student at Netaji Subhash University, studying computer stuff. I really love diving into how computers work and figuring out how to use them to solve problems.In the future, I want to use what I've learned to make cool stuff that helps people. Whether it's creating new apps, doing research on how to make computers smarter, or even starting my own tech company, I'm excited to see where my journey in computer science takes me!</div>
+            <div class="profile_tags"><a class="leftlink" href="https://github.com/Ayushsingla1" target="_blank">GitHub</a>
+                <a class="rightlink" href="https://www.linkedin.com/in/ayush-singla-a7549628b" target="_blank">Linkedin</a></div>    
             </div>
-            <div class="right_content">
-                <div class="vector">
-                    <img src="./icons/Untitled.svg" class="vector1">
-                </div>
+        </div>
+        <div class="right_content">
+            <div class="vector">
+                <img src="./icons/Untitled.svg" class="vector1">
             </div>
+        </div>
+    </section>
+    <div id="contact_ruko"></div>
+    <section id="contact_page">
+        <div class="Contact_text">
+            <h3 class="text_getintouch">GET IN TOUCH</h3>
+            <h1 class="text_contactme">Contact Me</h1>
+        </div>
+        <section class="Contact">
+            <div class="Contact_details">
+                <div class="Call_details">
+                    <span class="call_image"> <img src="./icons/telephone-fill.svg" > </span>
+                    
+                    <h3>Call Me</h3>
+                    <p>+91-9416855609</p>
+                </div>
+                <div class="Email_details">
+                    <span class="email_image"><img src="icons/envelope.svg" alt=""></span>
+                    <h3>Email Me</h3>
+                    <p>Ayushsingla1122@gmail.com</p>
+                </div>
+                <div class="Address_details">
+                    <span class="address_image"><img src="./icons/geo-alt-fill.svg" alt=""></span>
+                    <h3>Address</h3>
+                    <p>Netaji Subhas University of Technology,Dwarka,New Delhi</p>
+            </div>
+            </div>
+                <form action="backend.php" class="form_main" id="form_imp">
+                    <input type="text" name="Your_name" id="" placeholder="Name" class="name_section">
+                    <input type="text" name="Your_email" id="" placeholder="Email" class="email_section">
+                    <input type="text" name="Your_subject" id="" placeholder="Subject" class="subject_section">
+                    <textarea name="" id="" cols="80" rows="12" placeholder="Message" class="message_section"></textarea>
+                    <button type="submit" class="submit_button">Send Message</button>
+                </form>
         </section>
+    </section>
+    <div id="about_ruko"></div>
+    <section id="about_page">
+            <h1 class="heading_about">ABOUT ME</h1>
+            <section id="section_main">
+                <div class="content_1">I am a Btech student in the CSAI (Computer Science and Artificial Intelligence)
+                    branch with a passion for web development and data structures. In my free time, I enjoy coding and
+                    experimenting with different web development tools and techniques. I am particularly interested in data
+                    structures and algorithms, and enjoy learning about new methods for optimizing code and improving
+                    performance. I am always looking for new opportunities to learn and grow as a developer and am excited
+                    to connect with others who share my interests.
+                    <div class="content_2">
+                        <p class="projects">Here are Some links to my projects : </p>
+                        <div><a href="https://ayushsingla1.github.io/RandomPassword/">RandomPasswordGenerator</a></div>
+                        <div><a href="https://ayushsingla1.github.io/random/">GuessTheNumber</a></div>
+                    </div>
+                </div>
+                <div class="image_container">
+                    <img src="./360_F_118488147_camSVutvgYWFZubOzLlZ6brCwoIFMwup.jpg" alt="Error Loading image">
+                </div>
+            </section>
+    
+    </section>
 </body>
 </html>
